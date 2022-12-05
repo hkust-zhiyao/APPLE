@@ -112,19 +112,19 @@ def infer(X):
 
 def metrics(Xc,Xii):
     #metric
-    Xc[Xc>0]=255
-    Xii[Xii>0]=255
-    focus_area_all=Xii.sum()
-    focus_area_inter=Xii[220:380,220:380].sum()
-    wire_area_all=Xii.sum()
-    wire_area_inter=Xii[220:380,220:380].sum()
-    Xc_all=Xc.sum()
-    Xc_inter=Xc[220:380,220:380].sum()
+    Xc[Xc>0] = 255
+    Xii[Xii>0] = 255
+    focus_area_all = Xii.sum()
+    focus_area_inter = Xii[220:380, 220:380].sum()
+    wire_area_all = Xii.sum()
+    wire_area_inter = Xii[220:380, 220:380].sum()
+    Xc_all = Xc.sum()
+    Xc_inter = Xc[220:380, 220:380].sum()
     
     
-    con_np=np.ones((600,600),dtype=float)
-    con_np=con_np*255
-    cons=con_np[220:380,220:380].sum()
+    con_np = np.ones((600,600),dtype=float)
+    con_np = con_np*255
+    cons = con_np[220:380,220:380].sum()
     
     print('')
     print('apple************************************')  
