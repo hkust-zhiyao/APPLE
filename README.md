@@ -18,4 +18,5 @@ Specifically, the path of datasets and model should be edited. Then this script 
 **apple_helper.py** script includes the details of how apple judging model's performance.   
 **functions.py** script is made up of some functions that can be called to acheieve certain purposes.
 ### experimental results
-Experiment result is reported as a numpy array whose shape is in line with the shape of input data.
+Experiment result is reported as a numpy array whose shape is in line with the shape of input data. An example visualized output is shown below.
+![image](https://github.com/zhangmuci/model_Interpretability_apple/upload/main/plots/2.png)
