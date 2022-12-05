@@ -23,14 +23,14 @@ if __name__ == "__main__":
         y_positive = y[sample]
         print('number of positive samples:', X_positive.shape[0])
         for t in range(len(y_positive)):
-            Xt=X_positive[t]
-            Xtc=Xt.copy()
+            Xt = X_positive[t]
+            Xtc = Xt.copy()
             #call apple
             apple_out = apple(Xt) 
             #you can judge model's performance by calling below function
             metrics(Xtc, apple_out)
             #you can visiualize the result by calling below function
-            name='pictures_new/apple/'+str(bench)+'/'+str(t)+'.png'
+            name = 'pictures_new/apple/'+str(bench)+'/'+str(t)+'.png'
             plot_twoMap(apple_out, Xtc, name)
             
                 
