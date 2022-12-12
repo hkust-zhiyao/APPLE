@@ -287,6 +287,3 @@ def apple(X):
         Xii = Xi
     
     return Xii
-    
-    
-    
