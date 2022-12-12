@@ -32,9 +32,6 @@ import torch.nn as nn
 import argparse
 import matplotlib.patches as patches
 
-
-
-
 # log recorder
 class Logger(object):
 
@@ -55,7 +52,6 @@ class Logger(object):
 
     def flush(self):
         pass
-
 
 #visualize the result
 def plot_twoMap(x, xback, name = 'no'):
@@ -121,7 +117,6 @@ def metrics(Xc,Xii):
     Xc_all = Xc.sum()
     Xc_inter = Xc[220:380, 220:380].sum()
     
-    
     con_np = np.ones((600,600),dtype=float)
     con_np = con_np*255
     cons = con_np[220:380,220:380].sum()
@@ -137,9 +132,3 @@ def metrics(Xc,Xii):
     print('wire in',round(wire_area_inter/Xc_inter,4))
     print('apple************************************')
     print('')
-    
-    
-
-    
-
-    
