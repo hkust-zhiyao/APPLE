@@ -23,4 +23,4 @@ Specifically, the path of datasets and model should be edited. Then this script 
 
 ### experimental results
 Experiment result is reported as a numpy array whose shape is in line with the shape of input data. An example visualized output is shown below.  
-![image](plots/2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/150)
+![image](plots/2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/100)
