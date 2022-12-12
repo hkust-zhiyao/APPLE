@@ -7,8 +7,6 @@ from functions import plot_twoMap
 import random
 import torch
 
-
-
 if __name__ == "__main__":
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
     sys.stdout = Logger(sys.stdout)
@@ -32,11 +30,3 @@ if __name__ == "__main__":
             #you can visiualize the result by calling below function
             name = 'pictures_new/apple/'+str(bench)+'/'+str(t)+'.png'
             plot_twoMap(apple_out, Xtc, name)
-            
-                
-            
-        
-        
-            
-        
-    
