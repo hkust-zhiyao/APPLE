@@ -79,7 +79,6 @@ def seg(X):
                 rtn.append(board.copy())    
     return rtn
 
-
 def permutation(arr2,M):
     '''
     This function aims to find the part that has the greatest contribution
