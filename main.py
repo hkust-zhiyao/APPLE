@@ -11,7 +11,7 @@ if __name__ == "__main__":
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
     sys.stdout = Logger(sys.stdout)
     random.seed(0)
-    for bench in range(3,4):# using datasets from iccad2012 contest
+    for bench in range(1,6):# using datasets from iccad2012 contest
         print('Benchmark:',bench)
         X = np.load('saveData/Xtest' + str(bench) + '.npy')
         y = np.load('saveData/Ytest' + str(bench) + '.npy')
