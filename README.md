@@ -24,4 +24,4 @@ Specifically, the path of datasets and model should be edited. Then this script 
 
 ### experimental results
 The experiment result is reported as a numpy array whose shape is in line with the shape of input data. An example of visualized output is shown below.  
-![image](utils/apple+github.pdf)
+![image](utils/apple+github)
