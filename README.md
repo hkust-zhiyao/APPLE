@@ -22,6 +22,6 @@ Specifically, the path of datasets and model should be edited. Then this script 
 
 **functions.py** script comprises some functions that can be called for special needs.
 
-## experimental results
+## Experimental Results
 According to the experimental results, **APPLE** highlights the relevant regions, indicated in green, which correspond precisely to the identified lithography hotspots detected through lithography simulation. Moreover, the **APPLE** algorithm proves its effectiveness in mitigating backdoor attacks in hotspot detection, further enhancing its utility in practical applications. An example of visualized output is shown below.  
 <img src="utils/applegit.png" alt="Image" width="650" height="550">
