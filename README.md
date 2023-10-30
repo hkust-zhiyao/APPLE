@@ -1,5 +1,5 @@
 # Why Should I Trust Your Prediction on My Layout? Explanations at the Circuit-Element Level
-Tao Zhang, Haoyu Yang, Kang Liu, Zhiyao Xie. "APPLE: An Explainer of ML Predictions on Circuit Layout at the Circuit-Element Level". Asia and South Pacific Design Automation Conference (ASP-DAC)2024.
+Tao Zhang, Haoyu Yang, Kang Liu, Zhiyao Xie. "APPLE: An Explainer of ML Predictions on Circuit Layout at the Circuit-Element Level". Asia and South Pacific Design Automation Conference (ASP-DAC) 2024.
 ## Description  
 In this project, we proposed a brand-new algorithm named **apple** to explain the machine learning model's prediction at the resolution level of circuit elements. Particularly, **apple** tests the model's reliability by annotating model's focus region. A lot of experiments show that **apple** generalizes to various kinds of models very well.
 ## Preparation
