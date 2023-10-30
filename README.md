@@ -23,5 +23,5 @@ Specifically, the path of datasets and model should be edited. Then this script 
 **functions.py** script comprises some functions that can be called to achieve certain purposes.
 
 ### experimental results
-The experiment result is reported as a numpy array whose shape is in line with the shape of input data. An example of visualized output is shown below.  
+According to the experimental results, **APPLE** highlights the relevant regions, indicated in green, which correspond precisely to the identified lithography hotspots detected through lithography simulation. Moreover, the **APPLE** algorithm proves its effectiveness in mitigating backdoor attacks in hotspot detection, further enhancing its utility in practical applications. An example of visualized output is shown below.  
 ![image](utils/applegit.png)
