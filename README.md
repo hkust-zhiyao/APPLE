@@ -15,12 +15,12 @@ CUDA: 11.3.1
 NumPy: 1.23.1  
 ## How to run
 ### settings
-**main.py** script tests the performance of assigned models on the corresponding datasets.  
+**main.py** script tests the performance of any trained models on the corresponding datasets.  
 Specifically, the path of datasets and model should be edited. Then this script can run successfully.  
 
-**apple_helper.py** script includes the details of how **APPLE** evaluates model's performance.    
+**apple_helper.py** script includes the details of how **APPLE** works and evaluates model's performance.    
 
-**functions.py** script comprises some functions that can be called to achieve certain purposes.
+**functions.py** script comprises some functions that can be called for special needs.
 
 ### experimental results
 According to the experimental results, **APPLE** highlights the relevant regions, indicated in green, which correspond precisely to the identified lithography hotspots detected through lithography simulation. Moreover, the **APPLE** algorithm proves its effectiveness in mitigating backdoor attacks in hotspot detection, further enhancing its utility in practical applications. An example of visualized output is shown below.  
